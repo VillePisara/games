@@ -9,10 +9,10 @@
             var game = new Phaser.Game(1280, 839, Phaser.AUTO, 'main_game', { preload: preload, create: create, update: update });
             
             function preload() {
-                game.load.spritesheet('map','assets/map.jpg');
-                game.load.spritesheet('car','assets/car.png');
-                game.load.spritesheet('building','assets/building.png');
-                game.load.physics("collision","assets/collision.json");
+                game.load.spritesheet('map','map.jpg');
+                game.load.spritesheet('car','car.png');
+                game.load.spritesheet('building','building.png');
+                game.load.physics("collision","collision.json");
             }
             
             var cursors;
